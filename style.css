@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* Shared styles */
+
+.light-gray{
+    color: rgba(19, 19, 24, 0.7);
+}
+.dark-gray{
+    color: rgba(90, 90, 93, 1);
+}
+.orange-text{
+    color: #FF5400;
+    
+}
+.orange-bg{
+    background-color: #FF5400;
+}
+
+
+/* Navbar styles */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+.nav-left img{
+    width: 48px;
+    height: 56px;
+    margin-right: 7px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-right: 127px;
+
+}
+.nav-link{
+    margin-right: 30px;
+    list-style: none;
+}
+.nav-iteam{
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* Banner title */
+
+.banner{
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: calc(100% - 262px); /* Adjusting based on navbar margins */
+    margin: 0 auto; /* Centering the banner */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+   
+   }
+   .banner-content{
+    max-width:800px;
+   }
+   .banner-title{
+    font-size: 3.75rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+   }
+   .banner-description{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 20px;
+   }
+.banner-options{
+    max-width:800px ;
+    max-height: 85px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    padding-right: 24px;
+    border-radius: 8px;
+  
+}
+.banner-input{
+   width: 174px; 
+   height: 54px;
+   text-align: center;
+   border-radius: 8px;
+    border: none;
+}
+.btn-primary{
+    
+    border-radius: 8px;
+    color: white;
+    padding: 14px 34px;
+  
+
+}
